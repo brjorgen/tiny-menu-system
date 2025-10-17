@@ -39,7 +39,7 @@ void	menu_free(t_menu *menu){
 }
 
 void	menu_display(t_menu *menu){
-	system("clear"); // or "cls" on Windows
+	system("clear");
 	printf("== %s ==\n", menu->name);
 	for (int i = 0; i < menu->options_count; ++i) {
 		printf("%s %s\n", i == menu->selected_index ? ">" : " ", menu->options[i].name);
