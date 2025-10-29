@@ -4,6 +4,7 @@
 
 /* When using the stack based implementation, your job is to define */
 /* the structure of your menu, like illustrated in main() */
+/* AND implement these two functions in your context */
 
 void	menu_display(t_menu *menu){
 	system("clear"); /* we don't care about Windows, here. */
