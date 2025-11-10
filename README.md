@@ -1,5 +1,5 @@
 # tiny-menu-system
-A stupid menu system, written in C.
+A cool menu system, written in C.
 ```sh
 # Dynamically allocated implementation (shitty)
 bash build.sh        # build the lib
